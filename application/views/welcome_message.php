@@ -91,6 +91,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		border-radius: 4px;
 	}
 	</style>
+	<?php $this->load->view('includes'); ?>
 </head>
 <body>
 	<div id="container">
@@ -99,7 +100,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		</h1>
 
 		<div id="body">
-			<p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
+			<p class="alert alert-warning">The page you are looking at is being generated dynamically by CodeIgniter.</p>
 
 			<p>If you would like to edit this page you'll find it located at:</p>
 			<code>application/views/welcome_message.php</code>
